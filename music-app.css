@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+ul>li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px 0;
+}
+a{    
+    color: rgb(232, 64, 64);
+    text-decoration: none;
+    font-size: 20px;
+}
+.first-top > a{
+    text-decoration: none;
+    color: rgb(232, 64, 64);
+    float: right;
+}
+.first-top{
+    padding-bottom: 30px;
+}
+.paint-white{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:100;
+    padding: 10px 0;
+}
+.links-border{
+    border-bottom: 1px solid rgba(100, 91, 91, 0.391);
+}
+.right-end{
+    float:right;
+    color:  rgba(100, 91, 91, 0.391);
+}
+.music-title{
+    color: white;
+}
+.artiste-name{
+    color:  rgba(239, 233, 233, 0.391);
+}
+.image-grids{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.each{
+    padding: 10px; 
+}
+.music-cover{
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+.music-title, .artiste-name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bottom-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.categories{
+    color: rgba(239, 233, 233, 0.391);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -4px; 
+}  
+a:hover{
+    color: rgb(234, 144, 144);
+}
+.bottom-fill{
+    background-color: rgba(15, 15, 15, 0.588);
+    position: sticky;
+    bottom: 0;
+}
+.audio-{
+    display: flex;
+    justify-content: center;
+}
+a, span{
+    text-decoration: none;
+    color: rgb(232, 64, 64);
+}
+.shift-right{
+    color: rgb(232, 64, 64);
+    float: right;
+    padding: 20px 0;
+}
+.paint-white{
+    color: white;
+    padding: 15px 0px;
+}
+.links-border{
+    border-bottom: 1px solid rgba(100, 91, 91, 0.391);
+}
+.playl-1{
+    display: flex;
+}
+.newplay-1{
+    color: rgb(232, 64, 64);
+    margin-top: 34px;
+r}
+.only{
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.left-direction{
+    color: rgba(100, 91, 91, 0.391); 
+    margin: ;
+}
+img{
+    border-radius: 5px;
+}
+.artist-grouping{
+    display: flex;
+    padding-top: 9px;
+}
+.paint-white-two{
+    color: white;
+    font-size: small;
+}
+.artiste-name-two{
+    color: white;
+    margin-top: 5px;
+}
+.links-border-two{
+    border-bottom:1px solid rgba(100, 91, 91, 0.391);
+    margin-top: -5px;
+    margin-left:35px ;
+}
+.adekunle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.alphabets{
+    color: rgb(232, 64, 64);
+    float: right;
+    position: relative;
+}
+.choose-one {
+    display: flex;
+    margin: 0 10px;
+}
+.play, .shuffle{
+    display: flex;
+    background-color: rgb(58, 50, 50);
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.last{
+    color: rgb(232, 64, 64);
+    
+}
+.last-one{
+    height: 20px;
+    width: 20px; 
+}
+.middle{
+    display: flex;
+    margin: 0 auto;
+}
+.bottom-icons-playlist{
+    display: flex;
+    justify-content: space-around;
+}
+.links-borders{
+    border-bottom: 1px solid rgba(100, 91, 91, 0.391);
+    padding-bottom: 190px;
+    position: sticky;
+    bottom: 0;
+}
